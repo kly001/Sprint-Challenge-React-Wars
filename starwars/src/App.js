@@ -1,6 +1,6 @@
 import React, {useState, useEffect}from 'react';
 import axios from "axios";
-import Characters from "./components/Characters";
+// import Characters from "./components/Characters";
 import CharacterList from "./components/CharacterList";
 import './App.css';
 
@@ -18,6 +18,8 @@ const App = () => {
     .get("https://swapi.co/api/people/")
     .then(res => {
       setCharData(res.data.results)
+      // console.log(res.data.results)
+      // console.log(charData)
     })
     .catch(error => console.log(error))
   })
@@ -25,7 +27,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
-      <CharacterList/>
+      <CharacterList />
     </div>
   );
 }
