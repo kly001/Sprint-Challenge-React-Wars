@@ -26,6 +26,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ React JS is a commonly used JavaScript library used for building user interface whose main purpose is to build powerful applications.  It can be used as a base in the development of single page or mobile applications.
+
+    It try to solve some of the major problems faced when dealing with complex states, such as constantly changing data and worldwide multiple users.
+----------------------------------------------------------------------------------------------
+
 - [ ] What does it mean to _think_ in react?
 
 - [ ] Describe state.
