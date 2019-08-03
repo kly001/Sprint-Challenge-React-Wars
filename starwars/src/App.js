@@ -27,7 +27,7 @@ const App = () => {
     <div className="App">
       <h1 className="Header">React Wars</h1>
       {charData.map((character,index) =>{
-        console.log(character)
+        // console.log(character)
      return <CharacterList character={character} key={index}/>}   
       )}
       
