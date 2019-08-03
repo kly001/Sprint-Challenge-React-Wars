@@ -1,13 +1,17 @@
 import React from "react";
-import Characters from "./Characters";
 
-const CharacterList =(character) => {
-    // console.log(character)
+const CharacterList =(props) => {
+    // console.log(props)
     return (
     
         <div>
-        <h2> List of Characters</h2> 
-        <Characters character={character}  />
+        <h2> Character Identity -</h2> 
+        <p>NAME:</p>
+        <p>GENDER:</p>
+        <p>BIRTH YEAR:</p>
+        <p>EYE COLOR:</p>
+        <p>SKIN COLOR</p>
+        <p>HEIGHT:</p>
         </div>
     )
 }
